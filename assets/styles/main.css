@@ -1,0 +1,78 @@
+header {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+}
+p, code, #main-doc li {
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+#main-doc li {
+    list-style: disc;
+}
+#main-doc ul {
+    margin-left: 50px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+}
+#main-doc {
+    padding: 20px;
+    background-color: rgba(192, 192, 192, 0.5);
+    margin-left: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    width: 65vw;
+    border-radius: 10px;
+}
+#main-doc header {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+}
+code {
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+#nav-bar {
+    position: fixed;
+    padding: 20px;
+    background-color: rgba(192, 192, 192, 0.5);
+    margin-right: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    height: 94vh;
+    left: 25px;
+    top: 0;
+    margin: 20px 0;
+    width: 25vw;
+    border-radius: 10px;
+}
+.nav-link {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+#nav-bar li {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+#nav-bar ul {
+    overflow-y: scroll;
+    height: 90%;
+}
+#nav-bar header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#reference a {
+    color: rgba(0, 0, 0, 0.1);
+}
